@@ -4,13 +4,13 @@ Get instant darkmode toggle code without writing .
 
 # Installation
 
-`npm install Darkmode --save`
+`npm install easy-darkmode-toggle --save`
 
 Then...
 
 ...
 
-import { Darkmode } from 'Darkmode';
+import { Darkmode } from 'easy-darkmode-toggle'
 
 const dark = new Darkmode('#App')
 
@@ -20,7 +20,7 @@ dark.toggle()
 
 _EXAMPLE_
 
-import { Darkmode } from 'Darkmode';
+import { Darkmode } from 'easy-darkmode-toggle';
 
 const dark = new Darkmode('body')
 

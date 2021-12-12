@@ -1,6 +1,6 @@
 {
-    "name": "dark-mode",
-    "version": "1.0.0",
+    "name": "easy-darkmode-toggle",
+    "version": "1.0.3",
     "description": "toggle darkmode",
     "main": "index.js",
     "scripts": {

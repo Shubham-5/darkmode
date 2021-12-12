@@ -19,4 +19,4 @@ class Darkmode {
   }
 }
 
-module.exports.darkmode = Darkmode;
+module.exports.Darkmode = Darkmode;

@@ -4,28 +4,30 @@ Get instant darkmode toggle code without writing .
 
 # Installation
 
-`npm install darkmode --save`
+`npm install Darkmode --save`
 
 Then...
 
 ...
 
-import { darkmode } from 'darkmode';
+import { Darkmode } from 'Darkmode';
 
-const dark = new Darkmode('#App') // Enter any selector name you want to style
+const dark = new Darkmode('#App')
 
-dark.toggle() // toggle() can enable darkmode in your app.
-
-EXAMPLE :
-
-import {darkmode} from 'darkmode';
-
-const dark = new Darkmode('body'
-)
-const btn = document.getElementByName('button');
-
-btn.addEventListener('click', ()=>{
 dark.toggle()
-})
 
 ...
+
+_EXAMPLE_
+
+import { Darkmode } from 'Darkmode';
+
+const dark = new Darkmode('body')
+
+const btn = document.getElementByName('button');
+
+btn.addEventListener('click', () => {
+
+    dark.toggle()
+
+})
